@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Triple Search Engine",
+  "version": "1.0",
+  "description": "3 Search Engine.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "browserSettings"
+  ],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}
